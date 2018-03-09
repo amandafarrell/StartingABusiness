@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StartingABusiness</string>
+
+    <!--Tab titles-->
+    <string name="intro_fragment_name">Intro</string>
+
+
+</resources>
