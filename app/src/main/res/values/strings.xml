@@ -7,5 +7,6 @@
     <string name="legal_fragment_name">Legal</string>
     <string name="finance_fragment_name">Finance</string>
     <string name="tax_fragment_name">Tax</string>
+    <string name="open_fragment_name">Open For Business</string>
 
 </resources>

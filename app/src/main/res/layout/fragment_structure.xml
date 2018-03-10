@@ -15,8 +15,8 @@
 
         <TextView
             style="@style/BodyTheme"
-            android:text="There are a variety of ways you can structure your business that will effect your legal liability and the way you will be taxed. Some common business structures are LLC, partnership, or corporation.
+            android:text="There are a variety of ways you can structure your business that will affect your legal liability and the way you will be taxed. Some common business structures are LLC, partnership, or corporation.
 
-The structure you chose depends on the specifics of your situation, and you should definitely seek professional advice to make sure you are picking the option that is right for you." />
+The structure you choose depends on the specifics of your situation, and you should definitely seek professional advice to make sure you are picking the option that is right for you." />
     </LinearLayout>
 </ScrollView>

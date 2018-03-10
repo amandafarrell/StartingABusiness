@@ -15,7 +15,7 @@
 
         <TextView
             style="@style/BodyTheme"
-            android:text="Finally, you will want to set up bank accounts for you business that are separate from your personal accounts. Besides being a good way to keep track of funds, some business structures legally require your business accounts to separate from your personal accounts.
+            android:text="Finally, you will want to set up bank accounts for you business that are separate from your personal accounts. Besides being a good way to keep track of funds, some business structures legally require your business accounts to be separate from your personal accounts.
 
 This is another reason why it is important to get your EIN number. Banks will not create accounts for corporations without an EIN." />
     </LinearLayout>

@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
-    final int PAGE_COUNT = 5;
+    final private int PAGE_COUNT = 6;
     private Context context;
 
     public SimpleFragmentPagerAdapter(android.support.v4.app.FragmentManager fm, Context context) {
@@ -35,6 +35,8 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
                 return new TaxFragment();
             case 4:
                 return new FinanceFragment();
+            case 5:
+                return new OpenFragment();
             default:
                 return null;
         }
@@ -53,6 +55,8 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
                 return context.getResources().getString(R.string.tax_fragment_name);
             case 4:
                 return context.getResources().getString(R.string.finance_fragment_name);
+            case 5:
+                return context.getResources().getString(R.string.open_fragment_name);
             default:
                 return null;
         }
