@@ -11,10 +11,10 @@
 
         <TextView
             style="@style/HeadingTheme"
-            android:text="Getting Started" />
+            android:text="Making It Official" />
 
         <TextView
             style="@style/BodyTheme"
-            android:text="You've got an idea, a plan, and a business name. Where do you go from there? This app will you give you a brief overview of the technical things you need to think about before you can officially open for business." />
+            android:text="Once you've decided on a structure, you will need to register you business with the appropriate state. Depending on the state and the structure you've chosen, the fee will probably be between $25 and $750. You may need to renew the registration periodically." />
     </LinearLayout>
 </ScrollView>

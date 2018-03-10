@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">StartingABusiness</string>
+    <string name="app_name">Starting A Business</string>
 
     <!--Tab titles-->
     <string name="intro_fragment_name">Intro</string>
-
+    <string name="structure_fragment_name">Structure</string>
+    <string name="legal_fragment_name">Legal</string>
+    <string name="finance_fragment_name">Finance</string>
+    <string name="tax_fragment_name">Tax</string>
 
 </resources>

@@ -11,10 +11,10 @@
 
         <TextView
             style="@style/HeadingTheme"
-            android:text="Getting Started" />
+            android:text="Your EIN" />
 
         <TextView
             style="@style/BodyTheme"
-            android:text="You've got an idea, a plan, and a business name. Where do you go from there? This app will you give you a brief overview of the technical things you need to think about before you can officially open for business." />
+            android:text="Once you have registered your business, you will be assigned an EIN (Employer Identification Number), which is sometimes called a TIN (Taxpayer Identification Number). This number is used for identifying businesses the way a Social Security number is used to identify individuals. You will use it when reporting taxes. It does not expire." />
     </LinearLayout>
 </ScrollView>

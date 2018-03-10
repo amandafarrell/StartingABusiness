@@ -9,17 +9,17 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
-
+    final int PAGE_COUNT = 5;
     private Context context;
 
-    public SimpleFragmentPagerAdapter(android.support.v4.app.FragmentManager fm, Context c) {
+    public SimpleFragmentPagerAdapter(android.support.v4.app.FragmentManager fm, Context context) {
         super(fm);
-        context = c;
+        this.context = context;
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return PAGE_COUNT;
     }
 
     @Override
@@ -31,6 +31,10 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
                 return new StructureFragment();
             case 2:
                 return new LegalFragment();
+            case 3:
+                return new TaxFragment();
+            case 4:
+                return new FinanceFragment();
             default:
                 return null;
         }
@@ -42,14 +46,13 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return context.getResources().getString(R.string.intro_fragment_name);
             case 1:
-                String page2 = "Structure";
-                return page2;
+                return context.getResources().getString(R.string.structure_fragment_name);
             case 2:
-                String page3 = "Legal";
-                return page3;
+                return context.getResources().getString(R.string.legal_fragment_name);
             case 3:
-                String page4 = "Tax";
-                return page4;
+                return context.getResources().getString(R.string.tax_fragment_name);
+            case 4:
+                return context.getResources().getString(R.string.finance_fragment_name);
             default:
                 return null;
         }

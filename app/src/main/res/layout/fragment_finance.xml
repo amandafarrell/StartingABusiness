@@ -11,10 +11,12 @@
 
         <TextView
             style="@style/HeadingTheme"
-            android:text="Getting Started" />
+            android:text="Business Bank Accounts" />
 
         <TextView
             style="@style/BodyTheme"
-            android:text="You've got an idea, a plan, and a business name. Where do you go from there? This app will you give you a brief overview of the technical things you need to think about before you can officially open for business." />
+            android:text="Finally, you will want to set up bank accounts for you business that are separate from your personal accounts. Besides being a good way to keep track of funds, some business structures legally require your business accounts to separate from your personal accounts.
+
+This is another reason why it is important to get your EIN number. Banks will not create accounts for corporations without an EIN." />
     </LinearLayout>
 </ScrollView>

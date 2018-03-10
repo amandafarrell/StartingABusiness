@@ -11,10 +11,12 @@
 
         <TextView
             style="@style/HeadingTheme"
-            android:text="Getting Started" />
+            android:text="Picking a Business Type" />
 
         <TextView
             style="@style/BodyTheme"
-            android:text="You've got an idea, a plan, and a business name. Where do you go from there? This app will you give you a brief overview of the technical things you need to think about before you can officially open for business." />
+            android:text="There are a variety of ways you can structure your business that will effect your legal liability and the way you will be taxed. Some common business structures are LLC, partnership, or corporation.
+
+The structure you chose depends on the specifics of your situation, and you should definitely seek professional advice to make sure you are picking the option that is right for you." />
     </LinearLayout>
 </ScrollView>
