@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <shape
-            android:shape="oval">
-            <solid android:color="@color/colorAccent" />
-            <size
-                android:width="108dp"
-                android:height="108dp" />
-            <corners android:radius="8dp"/>
-
-
-        </shape>
-    </item>
-
-    <item>
-        <vector xmlns:android="http://schemas.android.com/apk/res/android"
-            android:width="24dp"
-            android:height="24dp"
-            android:viewportHeight="24.0"
-            android:viewportWidth="24.0">
-            <path
-                android:fillColor="#FFFFFF"
-                android:pathData="M4,12l1.41,1.41L11,7.83V20h2V7.83l5.58,5.59L20,12l-8,-8 -8,8z" />
-        </vector>
-
-    </item>
-
-</layer-list>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/colorAccent"
+        android:pathData="M0,0h108v108h-108z" />
+</vector>
